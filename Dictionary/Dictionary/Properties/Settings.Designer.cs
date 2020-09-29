@@ -58,5 +58,14 @@ namespace Dictionary.Properties {
                 return ((string)(this["firefox"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\markus.german\\Desktop\\ignore.txt")]
+        public string ignorelist {
+            get {
+                return ((string)(this["ignorelist"]));
+            }
+        }
     }
 }

@@ -28,10 +28,9 @@ namespace Dictionary
             this.Edge = Properties.Settings.Default.edge;
 
             ReadtxtToList();
-
             Woerterliste.Sort();
             DeleteDups();
-
+            Ignore();
             ListToTxts();
         }
 
@@ -51,7 +50,7 @@ namespace Dictionary
 
             DeleteDups();
             DeleteWord(Wort);
-
+            Ignore();
             ListToTxts();
         }
 
@@ -136,6 +135,11 @@ namespace Dictionary
                 }
             }
         }
+
+        /// <summary>
+        /// Fügt das übergebe Wort in die Liste hinzu.
+        /// </summary>
+        /// <param name="wort"></param>
         public void AddWord(string wort)
         {
             Woerterliste.Add(wort);
@@ -144,6 +148,10 @@ namespace Dictionary
 
             Console.WriteLine("Wort wurde erfolgreich hinzugefügt!");
         }
+
+        /// <summary>
+        /// Zeigt alle Einträge in dem Wörterbuch
+        /// </summary>
         public void DNshow()
         {
             foreach(string c in Woerterliste)
@@ -151,6 +159,10 @@ namespace Dictionary
                 Console.WriteLine(c);
             }
         }
+
+        /// <summary>
+        /// Gibt ein Hilfemenü aus.
+        /// </summary>
         public void Help()
         {
             Console.WriteLine("Hilfemenü:");
@@ -159,5 +171,36 @@ namespace Dictionary
             Console.WriteLine("--dnshow : zeigt das aktuelle Wörterbuch");
             Console.WriteLine("--add [wort] : fügt ein Wort hinzu");
         }
+
+        public void Ignore()
+        {
+            try
+            {
+                string ignorestring = Properties.Settings.Default.ignorelist;
+                List<string> ignoreliste = new List<string>();
+                using (var reader = new StreamReader(ignorestring))
+                {
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        foreach (string c in Woerterliste)
+                        {
+                            if (c == line)
+                            {
+                                Woerterliste.Remove(c);
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Es wurde keine gültige ignore.txt gefunden");
+                Console.WriteLine("Drücke eine beliebige Taste um fortzufahren");
+                Console.ReadKey();
+            }
+        }
+        
     }
 }

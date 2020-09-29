@@ -5,6 +5,12 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Markus German
+/// Programm zur Aktualisierung von Textdateien
+/// myconsult GmbH
+/// </summary>
+
 namespace Dictionary
 {
     class Program

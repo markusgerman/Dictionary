@@ -5,3 +5,10 @@ C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\obj\Debug\Dictiona
 C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.CoreCompileInputs.cache
 C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\obj\Debug\Dictionary.exe
 C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\obj\Debug\Dictionary.pdb
+C:\repos\Dictionary\Dictionary\bin\Debug\Dictionary.exe.config
+C:\repos\Dictionary\Dictionary\bin\Debug\Dictionary.exe
+C:\repos\Dictionary\Dictionary\bin\Debug\Dictionary.pdb
+C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.csprojAssemblyReference.cache
+C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.CoreCompileInputs.cache
+C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.exe
+C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.pdb
