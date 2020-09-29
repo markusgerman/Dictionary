@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Dictionary.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="master" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\markus.german\Desktop\master.txt</Value>
+    </Setting>
+    <Setting Name="word" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\markus.german\Desktop\word.txt</Value>
+    </Setting>
+    <Setting Name="edge" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\markus.german\Desktop\edge.txt</Value>
+    </Setting>
+    <Setting Name="firefox" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\markus.german\Desktop\firefox.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
