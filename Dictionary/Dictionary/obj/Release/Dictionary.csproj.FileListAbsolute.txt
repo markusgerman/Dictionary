@@ -4,3 +4,9 @@ C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\bin\Release\Dictio
 C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\obj\Release\Dictionary.csproj.CoreCompileInputs.cache
 C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\obj\Release\Dictionary.exe
 C:\Users\markus.german\Desktop\DicFinal\Dictionary\Dictionary\obj\Release\Dictionary.pdb
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\bin\Release\Dictionary.exe.config
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\bin\Release\Dictionary.exe
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\bin\Release\Dictionary.pdb
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\obj\Release\Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\obj\Release\Dictionary.exe
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\obj\Release\Dictionary.pdb

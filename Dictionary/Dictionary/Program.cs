@@ -44,6 +44,9 @@ namespace Dictionary
                         case "--add":
                             dic.AddWord(args[i]);
                             break;
+                        case "--ignore":
+                            dic.AddIgnore(args[i]);
+                            break;
                     }
             }
             dic.ListToTxts();

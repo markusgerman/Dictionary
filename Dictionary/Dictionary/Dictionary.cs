@@ -170,6 +170,7 @@ namespace Dictionary
             Console.WriteLine("--delete [wort] : löscht ein Wort aus allen Wörterlisten");
             Console.WriteLine("--dnshow : zeigt das aktuelle Wörterbuch");
             Console.WriteLine("--add [wort] : fügt ein Wort hinzu");
+            Console.WriteLine("-ignore [wort] : ignoriert ein Wort");
         }
 
         public void Ignore()
@@ -200,6 +201,18 @@ namespace Dictionary
                 Console.WriteLine("Drücke eine beliebige Taste um fortzufahren");
                 Console.ReadKey();
             }
+        }
+
+        public void AddIgnore(string wort)
+        {
+            string path = Properties.Settings.Default.ignorelist;
+
+            using(StreamWriter sw = File.AppendText(path))
+            {
+                sw.WriteLine(wort);
+            }
+
+            Ignore();
         }
         
     }

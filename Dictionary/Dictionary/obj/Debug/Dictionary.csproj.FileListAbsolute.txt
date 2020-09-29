@@ -12,3 +12,10 @@ C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.csprojAssemblyReference.cach
 C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.CoreCompileInputs.cache
 C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.exe
 C:\repos\Dictionary\Dictionary\obj\Debug\Dictionary.pdb
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\bin\Debug\Dictionary.exe.config
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\bin\Debug\Dictionary.exe
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\bin\Debug\Dictionary.pdb
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\obj\Debug\Dictionary.csprojAssemblyReference.cache
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\obj\Debug\Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\obj\Debug\Dictionary.exe
+C:\Users\markus.german\Desktop\Dictionary\Dictionary\Dictionary\obj\Debug\Dictionary.pdb
