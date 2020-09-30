@@ -170,7 +170,7 @@ namespace Dictionary
             Console.WriteLine("--delete [wort] : löscht ein Wort aus allen Wörterlisten");
             Console.WriteLine("--dnshow : zeigt das aktuelle Wörterbuch");
             Console.WriteLine("--add [wort] : fügt ein Wort hinzu");
-            Console.WriteLine("-ignore [wort] : ignoriert ein Wort");
+            Console.WriteLine("--ignore [wort] : ignoriert ein Wort");
         }
 
         public void Ignore()
